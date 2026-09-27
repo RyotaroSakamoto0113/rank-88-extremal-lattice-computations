@@ -1,0 +1,34 @@
+{
+  "verified": true,
+  "E_order": 240,
+  "E_smallgroup": [
+    240,
+    89
+  ],
+  "E_semilinear_order": 480,
+  "E_binary_witness_coordinates": [
+    [
+      -1,
+      -4,
+      0,
+      1,
+      1,
+      0,
+      0,
+      -2
+    ],
+    [
+      1,
+      -2,
+      -1,
+      -3,
+      1,
+      1,
+      0,
+      -1
+    ]
+  ],
+  "J_trace_order": 12144,
+  "J0_trace_order": 24288,
+  "seconds": 56.901388833999995
+}

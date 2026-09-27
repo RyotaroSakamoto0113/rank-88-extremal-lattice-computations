@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "release": "computation-only-candidate",
+  "assets": [
+    {
+      "filename": "88extremal-computation-certificates-final-review-20260927.tar.gz",
+      "bytes": 467821621,
+      "sha256": "b3f429b2586515fcff5aecedb48dd16fb73fe31566086dfcd46f9080d7613694",
+      "uncompressed_file_bytes": 1774911675,
+      "members": 2099
+    }
+  ],
+  "index": {
+    "path": "full_certificate_index.jsonl",
+    "sha256": "665c53642491321482fb03e1bbfe3f7656b0c105cec38ae2202527d145e4022d"
+  }
+}

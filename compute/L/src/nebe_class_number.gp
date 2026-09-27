@@ -1,0 +1,24 @@
+default(nbthreads,1);
+default(parisizemax,2000000000);
+need(b,s)={if(!b,error(s))};
+main()={
+ my(start=getwalltime(),cp=polcompositum(x^2-x+2,polcyclo(13),1)[1],K,w,z,s,u,pol,b,pp,aa,v,unit,ratio,lg,xi,Bs=List(),prodB=1,cond,B1,ch,hm,red,emb);
+ K=nfinit(cp[1]);w=cp[2];z=cp[3];s=2*w-1;u=s*(z-z^-1);pol=minpoly(u);need(poldegree(pol)==12,"maximal real subfield degree");
+ red=polredbest(pol,1);emb=Mod(red[2],red[1]);b=bnfinit(red[1],1);print("REAL_BNF_COMPUTED hplus=",b.no," milliseconds=",getwalltime()-start);
+ need(bnfcertify(b)==1 && b.no==1,"unconditional real class number1");print("REAL_CLASS_NUMBER_CERTIFIED milliseconds=",getwalltime()-start);
+ pp=idealprimedec(b,13);need(#pp==1 && pp[1].f==1,"prime13 in real subfield");aa=bnfisprincipal(b,pp[1],1);need(aa[1]==0,"real prime principal");
+ v=nfbasistoalg(b,aa[2]);
+ C=matrix(12,12,i,j,polcoef(lift(emb^(j-1)),i-1));co=matinverseimage(C,vector(12,i,polcoef(lift(v),i-1))~);v=sum(i=1,12,co[i]*u^(i-1));
+ unit=(1-z)/v;need(denominator(nfalgtobasis(K,unit))==1 && abs(nfeltnorm(K,unit))==1,"explicit non-real unit");
+ ratio=unit/subst(lift(unit),x,z^-1-(1-w));need(ratio==-z && ratio^13==-1 && ratio^26==1,"Hasse unit index2 witness");
+ lg=vector(12);for(j=0,11,lg[lift(Mod(2,13)^j)]=j);xi=Mod(y,polcyclo(12,y));
+ for(a=0,1,for(bc=0,11,if((a+bc)%2==0,next);cond=if(a,7,1)*if(bc,13,1);B1=0;
+  for(j=1,cond,if(gcd(j,cond)!=1,next);ch=if(a,kronecker(j,7),1)*if(bc,xi^(bc*lg[j%13]),1);B1+=j*ch/cond);
+  prodB*=-B1/2;listput(Bs,[a,bc,cond,B1]);
+ ));hm=2*26*prodB;need(hm==7,"exact relative class number7");
+ write(Str(OUT,"/certificate.gp"),Str("COMPOSITUM=",cp,";REAL_POL_ORIGINAL=",pol,";REAL_REDUCTION=",red,";REAL_BNF=",b,";CM_UNIT=",unit,";BERNOULLI_VALUES=",Vec(Bs),";RELATIVE_CLASS_NUMBER=",hm,";"));
+ write(Str(OUT,"/verification.json"),"{\"status\":\"verified\",\"degree\":24,\"real_degree\":12,\"real_class_number\":1,\"real_class_number_unconditional\":true,\"Hasse_unit_index\":2,\"roots_of_unity\":26,\"relative_class_number\":7,\"class_number\":7,\"class_group\":\"C7\",\"extension_to_Q_zeta91_degree\":3}");
+ print("NEBE_CLASS_NUMBER_COMPLETE C7 milliseconds=",getwalltime()-start);
+};
+main();
+quit;

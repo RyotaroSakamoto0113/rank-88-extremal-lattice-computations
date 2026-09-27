@@ -1,0 +1,68 @@
+{
+  "status": "verified",
+  "started_utc": "2026-09-24T16:41:22.208617+00:00",
+  "input": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/publication_audit_20260925/repository/data/L0/lattice.json",
+  "certificate": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/publication_audit_20260925/repository/certificates/L0_perfection.json",
+  "stages": [
+    {
+      "name": "read_and_parse_inputs",
+      "wall_seconds": 0.003052584000000004,
+      "user_cpu_seconds": 0.002928999999999994,
+      "system_cpu_seconds": 0.00010800000000000046
+    },
+    {
+      "name": "prime_root_and_characters",
+      "wall_seconds": 3.12500000000035e-05,
+      "user_cpu_seconds": 3.100000000000325e-05,
+      "system_cpu_seconds": 1.9999999999985307e-06
+    },
+    {
+      "name": "exact_gram_orders_commutation_isometries",
+      "wall_seconds": 0.3231725,
+      "user_cpu_seconds": 0.320631,
+      "system_cpu_seconds": 0.0014090000000000005
+    },
+    {
+      "name": "left_eigenbasis",
+      "wall_seconds": 0.092317959,
+      "user_cpu_seconds": 0.088534,
+      "system_cpu_seconds": 0.0004580000000000001
+    },
+    {
+      "name": "all_seed_norms_and_transformed_coordinates",
+      "wall_seconds": 0.03418933299999999,
+      "user_cpu_seconds": 0.03406699999999996,
+      "system_cpu_seconds": 6.0999999999998555e-05
+    },
+    {
+      "name": "115_independent_square_minor_determinants",
+      "wall_seconds": 0.260481875,
+      "user_cpu_seconds": 0.258787,
+      "system_cpu_seconds": 0.0009890000000000003
+    }
+  ],
+  "external_prerequisite": "The minimum of this same lattice is 8.",
+  "input_hashes": {
+    "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/publication_audit_20260925/repository/data/L0/lattice.json": "1120a57c3564f60b3a90285a2b8a7746fd96324e3c70f919e194e8be39ce0efb",
+    "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/publication_audit_20260925/repository/certificates/L0_perfection.json": "ebe244a7eaa552197d6a5bebda11dec43fc7d76213d75b7f244fc93304718194",
+    "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/publication_audit_20260925/repository/scripts/verify_split_certificate.py": "a7a668744741cb84a2b8aa4afaa8e7bb67ad2304cb45d36c066fc12af7c133ee"
+  },
+  "T_determinant_mod_p": 349,
+  "p": 461,
+  "zeta": 5,
+  "seed_count": 44,
+  "block_count": 115,
+  "modular_span_dimension": 3916,
+  "rational_span_dimension": 3916,
+  "positive_even_unimodular_gram_verified": true,
+  "integral_isometries_and_orders_verified": true,
+  "all_seed_norms_8": true,
+  "conclusion": "The norm-8 g-orbit outer products span Sym_88(Q).",
+  "proves_perfection_given_external_minimum_8": true,
+  "total_timing": {
+    "wall_seconds": 0.719489041,
+    "user_cpu_seconds": 0.7093879999999999,
+    "system_cpu_seconds": 0.004309
+  },
+  "finished_utc": "2026-09-24T16:41:22.928115+00:00"
+}

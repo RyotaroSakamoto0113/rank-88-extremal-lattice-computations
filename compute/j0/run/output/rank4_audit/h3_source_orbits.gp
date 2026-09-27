@@ -1,0 +1,20 @@
+default(parisize,600000000);
+w=Mod(x,x^2-x+6);
+barf(z)=subst(lift(z),x,1-w);
+matkey(U)=vector(32,i,polcoef(lift(U[(i-1)%4+1,((i-1)\4)%4+1]),(i-1)\16));
+assert(b,s)={if(!b,error(s))};
+main()={
+my(start=getabstime());read("output/rank4_audit/independent_charts.gp");read("output/rank4_audit/h3_source_inputs.gp");
+my(A=vector(#aut,i,aut[i]^-1),M=Map(),cov=vector(#HS),wit=vector(#HS),reps=List(),J,idx,Hnew,steps=0);
+for(i=1,#HS,mapput(M,matkey(HS[i]),i));
+assert(#Vec(M)==#HS,"input Gram matrices not distinct");
+for(i=1,#HS,if(cov[i],next);listput(reps,ids[i]);for(j=1,#A,Hnew=A[j]*HS[i]*barf(A[j]~);steps++;if(mapisdefined(M,matkey(Hnew),&idx),if(!cov[idx],cov[idx]=ids[i]+1;wit[idx]=j))));
+assert(vecmin(cov)>0,"uncovered source target");
+my(out=vector(#HS,i,[ids[i],cov[i]-1,wit[i]]),fd=fileopen("output/rank4_audit/h3_source_orbit_map.json","w"));
+filewrite(fd,out);fileclose(fd);
+fd=fileopen("output/rank4_audit/h3_source_orbit_automorphisms.json","w");filewrite(fd,vector(#A,i,matkey(A[i])));fileclose(fd);
+fd=fileopen("output/rank4_audit/h3_source_representative_ids.json","w");filewrite(fd,Vec(reps));fileclose(fd);
+print("SOURCE_ORBITS_COMPLETE targets=",#HS," representatives=",#reps," matrix_transforms=",steps," wall_ms=",getabstime()-start);
+};
+main();
+quit;

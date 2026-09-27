@@ -1,0 +1,14 @@
+{
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.9.6",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "pari_gp": "2.17.4",
+  "gap": "4.14.0 (SmallGrp and GAPDoc)",
+  "full_L_wall_seconds": 1369.312160584,
+  "d4_all78_wall_seconds": 998.248142833,
+  "J0_wall_seconds": 50.805965708,
+  "factor_groups_wall_seconds": 79.84809604200001,
+  "factor_groups_rerun_seconds": 56.901388833999995,
+  "expanded_claims_rerun_seconds": 33.872577625
+}

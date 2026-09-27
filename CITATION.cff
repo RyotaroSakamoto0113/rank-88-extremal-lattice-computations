@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and identify this computational supplement when reusing the calculations."
+title: "Two Extremal Even Unimodular Lattices of Rank 88: Computational Supplement"
+type: software
+authors:
+  - family-names: Sakamoto
+    given-names: Ryotaro
+version: 2026.09.27-computations-candidate
+abstract: "Exact lattice inputs, minimum exclusions, factor-group calculations, and perfection certificates for two rank-88 extremal even unimodular lattices."
+keywords:
+  - even unimodular lattice
+  - extremal lattice
+  - Hermitian tensor product
+  - reproducible computation

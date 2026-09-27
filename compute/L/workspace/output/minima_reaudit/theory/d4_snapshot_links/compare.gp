@@ -1,0 +1,11 @@
+default(parisizemax,3000000000);
+default(parisize,100000000);
+default(nbthreads,1);
+read("/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/FIRST4.gp");
+read("/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/STAB4.gp");
+read("/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ordinary_representatives.gp");
+need(b,s)={if(!b,error(s))};
+rows(A)=vector(matsize(A)[1],i,vector(matsize(A)[2],j,A[i,j]));
+write("/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/theory/d4_snapshot_links/runtime_first.json",vector(#FIRST4,i,[FIRST4[i][1],FIRST4[i][2],FIRST4[i][3],FIRST4[i][4],rows(FIRST4[i][5])]));
+for(i=1,#STAB4,x=MINIMA_ORBIT_REPS[i][4]~;ss=Set(STAB4[i]);need(#ss==#STAB4[i],"distinct stabilizer matrices");need(setsearch(ss,matid(22)),"stabilizer identity");for(j=1,#ss,need(ss[j]*x==x||ss[j]*x==-x,"actual signed vector stabilized");for(k=1,#ss,need(setsearch(ss,ss[j]*ss[k]),"stabilizer group closure"))));
+print("SNAPSHOT_STABILIZERS_CLOSED_AND_FIX_SIGNED_X");quit;

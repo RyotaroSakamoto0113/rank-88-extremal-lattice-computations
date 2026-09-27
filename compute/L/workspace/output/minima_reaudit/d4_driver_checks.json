@@ -1,0 +1,54 @@
+{
+  "driver_sha256": "3b910112199b15992f0860ec85b8bd2db2f4e7d705a0326e9b83b0f63396a681",
+  "existing_d3_manifest_check": {
+    "forms": 1302,
+    "signed_vectors": 1966,
+    "nodes": 239049,
+    "sum_ldl_seconds": 1.628261575000001,
+    "sum_enumeration_seconds": 0.45892481600000046,
+    "all_manifest_counts_match": true
+  },
+  "parallel_process_accounting": [
+    {
+      "stage": "accounting",
+      "command": [
+        "python3",
+        "-c",
+        "import time; s=time.process_time(); x=1\nwhile time.process_time()-s<0.15: x=(x*7+3)%1000000007\n"
+      ],
+      "started_utc": "2026-09-12T13:58:23.930104+00:00",
+      "stdout": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/d4-driver-check-b4a2dvz3/a/accounting.stdout",
+      "stderr": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/d4-driver-check-b4a2dvz3/a/accounting.stderr",
+      "returncode": 0,
+      "finished_utc": "2026-09-12T13:58:24.185382+00:00",
+      "wall_seconds": 0.255195167,
+      "user_cpu_seconds": 0.14396,
+      "system_cpu_seconds": 0.07228699999999999,
+      "max_rss_native_units": 11730944,
+      "voluntary_context_switches": 0,
+      "involuntary_context_switches": 109
+    },
+    {
+      "stage": "accounting",
+      "command": [
+        "python3",
+        "-c",
+        "import time; s=time.process_time(); x=1\nwhile time.process_time()-s<0.15: x=(x*7+3)%1000000007\n"
+      ],
+      "started_utc": "2026-09-12T13:58:23.930293+00:00",
+      "stdout": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/d4-driver-check-b4a2dvz3/b/accounting.stdout",
+      "stderr": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/d4-driver-check-b4a2dvz3/b/accounting.stderr",
+      "returncode": 0,
+      "finished_utc": "2026-09-12T13:58:24.191612+00:00",
+      "wall_seconds": 0.26132062500000003,
+      "user_cpu_seconds": 0.137795,
+      "system_cpu_seconds": 0.073128,
+      "max_rss_native_units": 12288000,
+      "voluntary_context_switches": 0,
+      "involuntary_context_switches": 131
+    }
+  ],
+  "counter_parser_extension_passed": true,
+  "anchors_validation_passed": true,
+  "d4_started": false
+}

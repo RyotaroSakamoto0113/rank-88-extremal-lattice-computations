@@ -1,0 +1,59 @@
+{
+  "verified": true,
+  "rank4_h3_exists": false,
+  "ambient": "J0=(pbar J,h11/2)",
+  "assumed_previously_proved_projective_minima": [
+    6,
+    16,
+    27,
+    48
+  ],
+  "norm7_absence_rechecked": true,
+  "abstract_candidates": 8159,
+  "binary_counts": {
+    "binary_absent": 6424,
+    "det_lt16": 154,
+    "survives": 1556,
+    "unary_absent": 25
+  },
+  "binary_obstruction_types": 119,
+  "binary_direct_signed_comparisons": 28399112,
+  "binary_survivors": 1556,
+  "source_representatives": 453,
+  "highspan_representatives": 452,
+  "simultaneous_quadruples": 1483,
+  "simultaneous_integral_embeddings": 0,
+  "lowspan_source_id": 6815,
+  "affine_state_counts": [
+    47,
+    77,
+    25,
+    0
+  ],
+  "affine_linear_systems": 149,
+  "independently_enumerated_affine_problems": 147,
+  "all_targets_accounted_for": 8159,
+  "positive_control_integral_embeddings": 8,
+  "J0_shell_signed_count": 561200,
+  "J0_shell_orbits": 78,
+  "tensor_trace_even_positive_definite_unimodular": true,
+  "consequence_using_existing_rank1_to3_bounds_and_norm4_witness": {
+    "Hermitian_minimum": 4,
+    "trace_minimum": 8,
+    "trace_rank": 88,
+    "extremal": true
+  },
+  "evidence_hashes": {
+    "independent_h3_targets.jsonl": "faa56ec1efb17213c0314455f50b83e39d4ac6a82eca329377240905aeaff806",
+    "independent_h3_binary_sieve.jsonl": "4ee159236ab5a64ccb5d41da7f7a91e391dda16c894eb640b85cb6762d8896f7",
+    "h3_source_orbit_map.json": "eabd7ab5020295abcb000ea43ade3f77de5a82c689d719757388d98cb089d504",
+    "h3_source_orbit_verification.json": "b1ad40b09a95047689eeb62739fc2ec68326fe8fa43362b57363bc1b60a055e2",
+    "simultaneous.jsonl": "56e0995c811b30749ebfc742842e8ebc49502b29a7e3434f482ffed5326fa49d",
+    "simultaneous_verification.json": "6dfb73444eb71112f2709929f1ab6987d2dc84d2505e7ad8a80cfb02b354f0fc",
+    "lowspan_affine/summary.json": "432807baf1b032a508b1d3389a68f5c2b1f7a3a70cdc203d0210af2a4dc7cd0b",
+    "M_integer_data.txt": "ffad5c9ca2f6b0ea7cfcdbf7c9281d6ddcf33f0b2a80c9470537d72b9453cb8c",
+    "M_shell12.txt": "85856be7cd1b847f0212ff65c85602b4778e1ce1cf8098c5196f7b7e464a65cd",
+    "M_shell12_orbit_reps.txt": "3173c39aa55e60465ab1af71c70f6b2d4982fac078a8175f51a5d7a7bfb6a40a"
+  },
+  "fresh_run_wall_seconds": 50.805965708
+}

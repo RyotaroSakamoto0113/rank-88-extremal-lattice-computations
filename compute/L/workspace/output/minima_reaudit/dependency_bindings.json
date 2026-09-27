@@ -1,0 +1,872 @@
+{
+  "status": "verified",
+  "d4_run": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn",
+  "initial_classes_and_stabilizers_match_verified_inputs": true,
+  "all_78_shard_structures_match": true,
+  "upper_and_lower_bounds_use_same_J": true,
+  "checks": [
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-223806-1hi7u01i/bootstrap/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-224127-d3-2ghz11k4/d3/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-223806-1hi7u01i/bootstrap/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-224127-d3-2ghz11k4/d3/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-223806-1hi7u01i/bootstrap/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/d3/benchmark/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/FIRST4.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/initial4/FIRST4.gp",
+      "sha256": "e2f1cc13d9b28488dac2679acaab7b54172cd8c6450826f607d082a3970e435e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/STAB4.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/initial4/STAB4.gp",
+      "sha256": "43fe742d7854c17b05aa8530e62f5896e16e7631ac9f1b7cb4d2201042a1b6ba"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-225059-ordinary-8drmqkk4/output/rank4_audit/orbits/point_orbit_lookup.txt",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/witnesses/orbits/point_orbit_lookup.txt",
+      "sha256": "fd57907ae9c9cfa62e042b74a9fa82a1e12374d3ee2dd8f4b78ae0d8cde6ad14"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-225059-ordinary-8drmqkk4/output/rank4_audit/orbits/orbit_representatives.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/witnesses/orbits/orbit_representatives.gp",
+      "sha256": "e246778e6a9bb0eeaf197486a2cfaadc22410e67f699c7fafa9c0949e9906ec6"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-225059-ordinary-8drmqkk4/output/rank4_audit/orbits/stabilizers.jsonl",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/witnesses/orbits/stabilizers.jsonl",
+      "sha256": "51c9af9b975c22838b9aa649597e996bf398980d1cfd9781d8a1baa501f5a66a"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-225059-ordinary-8drmqkk4/output/rank4_audit/orbits/group_matrices.txt",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/witnesses/orbits/group_matrices.txt",
+      "sha256": "9f135996f8b5192b9472f2243cec53daa2bdea9469d7a0b154bfcd719ecabfd3"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ordinary_representatives.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-225059-ordinary-8drmqkk4/output/rank4_audit/orbits/orbit_representatives.gp",
+      "sha256": "e246778e6a9bb0eeaf197486a2cfaadc22410e67f699c7fafa9c0949e9906ec6"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ordinary_prune/ordinary_lookup.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/witnesses/ordinary_prune/ordinary_lookup.gp",
+      "sha256": "88d3a86ef9e81ed7a7c3b4a734d492ed4e846ab5b617390ab48fc558aaf68064"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/src/common.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-224127-d3-2ghz11k4/src/common.gp",
+      "sha256": "3ddc64ffa09c1753cc0f7605b407bffdc14f4e4ac7278fd7e80241be97b72ca3"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/src/common.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-223806-1hi7u01i/src/common.gp",
+      "sha256": "3ddc64ffa09c1753cc0f7605b407bffdc14f4e4ac7278fd7e80241be97b72ca3"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/000/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/000/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/001/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/001/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/002/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/002/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/003/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/003/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/004/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/004/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/005/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/005/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/006/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/006/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/007/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/007/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/008/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/008/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/009/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/009/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/010/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/010/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/011/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/011/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/012/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/012/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/013/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/013/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/014/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/014/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/015/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/015/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/016/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/016/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/017/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/017/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/018/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/018/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/019/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/019/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/020/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/020/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/021/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/021/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/022/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/022/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/023/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/023/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/024/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/024/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/025/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/025/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/026/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/026/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/027/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/027/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/028/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/028/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/029/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/029/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/030/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/030/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/031/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/031/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/032/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/032/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/033/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/033/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/034/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/034/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/035/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/035/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/036/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/036/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/037/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/037/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/038/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/038/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/039/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/039/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/040/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/040/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/041/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/041/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/042/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/042/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/043/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/043/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/044/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/044/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/045/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/045/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/046/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/046/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/047/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/047/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/048/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/048/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/049/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/049/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/050/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/050/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/051/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/051/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/052/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/052/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/053/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/053/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/054/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/054/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/055/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/055/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/056/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/056/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/057/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/057/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/058/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/058/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/059/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/059/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/060/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/060/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/061/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/061/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/062/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/062/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/063/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/063/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/064/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/064/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/065/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/065/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/066/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/066/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/067/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/067/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/068/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/068/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/069/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/069/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/070/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/070/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/071/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/071/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/072/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/072/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/073/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/073/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/074/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/074/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/075/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/075/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/076/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/076/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/077/ambient.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/ambient.gp",
+      "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d"
+    },
+    {
+      "left": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/anchors/077/generators.gp",
+      "right": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn/inputs/generators.gp",
+      "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e"
+    }
+  ],
+  "gp_stage": {
+    "wall_seconds": 0.17425229200000003,
+    "user_cpu_seconds": 0.143117,
+    "system_cpu_seconds": 0.011753
+  },
+  "wall_seconds": 0.43815520799999996,
+  "finished_utc": "2026-09-12T14:14:19.772114+00:00",
+  "python_cpu_seconds": 0.09150299999999999
+}

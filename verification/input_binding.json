@@ -1,0 +1,17 @@
+{
+  "status": "input_hashes_recorded",
+  "inputs": {
+    "L": "ee7d08e6701d5d2618751c586241ab63cac8b838734e57eba73a98eeb76e8ab2",
+    "L0": "1120a57c3564f60b3a90285a2b8a7746fd96324e3c70f919e194e8be39ce0efb"
+  },
+  "certificates": {
+    "L": "0b22ef124537978f1954831ee61fe3bd09c2a6a67076432900b94568c2b39360",
+    "L0": "ebe244a7eaa552197d6a5bebda11dec43fc7d76213d75b7f244fc93304718194"
+  },
+  "reports": {
+    "full_L": "verification/fresh_L_final.json",
+    "J0": "verification/fresh_J0_summary.json",
+    "groups": "verification/factor_groups.json",
+    "factor_claims": "verification/factor_claims_extended.json"
+  }
+}

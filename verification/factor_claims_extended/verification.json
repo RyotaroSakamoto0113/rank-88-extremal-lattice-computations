@@ -1,0 +1,29 @@
+{
+  "status": "verified",
+  "J_minimum": 12,
+  "J_norm12_vectors": 1012,
+  "J0_minimum": 12,
+  "Hermitian_norm7_absent_both": true,
+  "J0_norm12_vectors": 506,
+  "shell_stabilizers": [
+    12,
+    48
+  ],
+  "factor_centers": [
+    2,
+    2
+  ],
+  "derived_orders": [
+    6072,
+    6072
+  ],
+  "Sylow23_counts": [
+    24,
+    24
+  ],
+  "Sylow_actions_faithful_and_projectively_identified": true,
+  "natural_E_and_displayed_J0_involutions_verified": true,
+  "Steinitz_prime_norm_identity_verified": true,
+  "seconds": 33.872577625,
+  "scope": "Exact factor-group and arithmetic checks; the full rank88 group upper bound remains a mathematical proof."
+}

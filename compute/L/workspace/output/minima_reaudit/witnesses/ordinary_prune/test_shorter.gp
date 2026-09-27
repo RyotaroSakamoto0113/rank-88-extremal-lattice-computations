@@ -1,0 +1,10 @@
+default(parisize,512000000);
+gettime();
+read("output/minima_reaudit/witnesses/ordinary_prune/ordinary_lookup.gp");
+print("LOAD_MS=",gettime());
+read("output/minima_reaudit/witnesses/ordinary_prune/shorter_ordinary.gp");
+read("output/minima_reaudit/witnesses/ordinary_prune/positive_control.gp");
+ordinary_input_check(ORDINARY_G);
+for(r=1,4,R=ORDINARY_TEST_R[,1..2*r];gettime();z=shorter_ordinary(R,12,77);print("RANK",r," WITNESS=",z);print("RANK",r," CHECK=",ORDINARY_LAST_CHECK," MS=",gettime()));
+gettime();z=shorter_ordinary(ORDINARY_TEST_R[,1..4],6,0);print("NO_PRUNE=",z," STATUS=",ORDINARY_LAST_CHECK," MS=",gettime());
+quit;

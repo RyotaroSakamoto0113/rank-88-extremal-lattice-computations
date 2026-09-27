@@ -1,0 +1,11 @@
+w=Mod(x,x^2-x+6);
+ctr(z)=subst(lift(z),x,1-w);
+tr(z)=polcoeff(lift(z+ctr(z)),0);
+tracegram(H)={my(n=matsize(H)[1]);matrix(2*n,2*n,i,j,tr(H[(i-1)%n+1,(j-1)%n+1]*if(i>n,w,1)*if(j>n,1-w,1)))};
+read("output/d4/feasibility/free_counterexample.gp");
+T64=(HermitianA+HermitianB*w)~;
+read("output/direct_extremality/countermodel_data.gp");
+N=H~;
+read("output/rank4_audit/h2_N_target.gp");
+D2=[6,2*w,0,0;2-2*w,6,0,0;0,0,8,0;0,0,0,8];
+fd=fileopen("output/rank4_audit/embedding_controls.flat","w");for(k=1,4,K=[T64,N,HXN,D2][k];s=Str(k-1);for(i=1,4,for(j=1,4,s=Str(s," ",polcoeff(lift(K[i,j]),0)," ",polcoeff(lift(K[i,j]),1))));filewrite(fd,s);R=qfminim(tracegram(K),24);print("id=",k-1," det=",matdet(K)," short_pairs=",R[1]/2));fileclose(fd);quit;

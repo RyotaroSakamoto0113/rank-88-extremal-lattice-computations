@@ -1,0 +1,8 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.9.6",
+  "hardware": "Model Name: MacBook Pro\nModel Identifier: Mac14,7\nChip: Apple M2\nTotal Number of Cores: 8 (4 Performance and 4 Efficiency)\nMemory: 16 GB",
+  "gp": "2.17.4",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin"
+}

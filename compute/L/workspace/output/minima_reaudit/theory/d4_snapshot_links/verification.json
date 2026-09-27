@@ -1,0 +1,29 @@
+{
+  "status": "verified",
+  "run_directory": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-230943-d4-full78-asrjvxpn",
+  "first_module_count": 78,
+  "semantic_initial_records_match": true,
+  "each_stabilizer_set_is_closed_group": true,
+  "each_stabilizer_fixes_actual_signed_anchor": true,
+  "snapshot_links": [
+    {
+      "name": "FIRST4.gp",
+      "sha256": "e2f1cc13d9b28488dac2679acaab7b54172cd8c6450826f607d082a3970e435e"
+    },
+    {
+      "name": "STAB4.gp",
+      "sha256": "43fe742d7854c17b05aa8530e62f5896e16e7631ac9f1b7cb4d2201042a1b6ba"
+    },
+    {
+      "name": "orbit_representatives.gp",
+      "sha256": "e246778e6a9bb0eeaf197486a2cfaadc22410e67f699c7fafa9c0949e9906ec6"
+    },
+    {
+      "name": "ordinary_lookup.gp",
+      "sha256": "88d3a86ef9e81ed7a7c3b4a734d492ed4e846ab5b617390ab48fc558aaf68064"
+    }
+  ],
+  "gp_wall_seconds": 0.553178792,
+  "gp_user_cpu_seconds": 0.511539,
+  "gp_system_cpu_seconds": 0.013663
+}

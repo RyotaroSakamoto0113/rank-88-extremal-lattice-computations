@@ -1,0 +1,25 @@
+default(parisize,256000000);
+read("input/J_ambient.gp");
+read("input/J0_exact_input.gp");
+assert(b,s)={if(!b,error(s))};
+A23(t)=t^10+3*t^9-6*t^8-27*t^7-2*t^6+86*t^5+66*t^4-116*t^3-112*t^2+54*t+49;
+main()={
+my(phi=polcyclo(23),eta=Mod(x,phi),t0=eta+eta^-1,alpha,weight,B0,BC,Wtrue,Gtrue,A0,A1,om=Mod(y,y^2-y+6),Htrue,GLtrue,v);
+alpha=1+sum(k=1,22,if(kronecker(k,23)==1,eta^k,0));
+weight=1/(2*(2-t0)^5*A23(t0));
+B0=vector(22,i,sum(j=1,22,S[j,i]*B[j]));
+BC=matrix(22,22,i,j,polcoef(lift(B0[j]),i-1));
+assert(abs(matdet(BC))==47*2^11,"twisted ideal absolute index");
+Gtrue=matrix(22,22,i,j,my(z=lift(weight*B0[i]*subst(lift(B0[j]),x,eta^-1)));23*polcoef(z,0)-subst(z,x,1));
+Wtrue=BC^-1*matrix(22,22,i,j,polcoef(lift(alpha*B0[j]),i-1));
+assert(Gtrue==G0 && Wtrue==W0,"direct cyclotomic reconstruction of J0");
+A0=(11*G0+W0~*G0)/23;A1=(G0-2*W0~*G0)/23;Htrue=A0+om*A1;
+v=2*om-1;
+my(HET=[1,0,4/v,om/v;0,1,(om-1)/v,4/v;-4/v,om/v,1,0;(om-1)/v,-4/v,0,1]);
+GLtrue=matrix(88,88,i,j,my(z=lift(HET[(i-1)\22+1,(j-1)\22+1]*Htrue[(i-1)%22+1,(j-1)%22+1]));2*polcoef(z,0)+polcoef(z,1));
+assert(GLtrue==GL && matdet(GL)==1 && denominator(GL)==1,"direct trace tensor input");
+for(i=1,88,assert(GL[i,i]%2==0 && matdet(GL[1..i,1..i])>0,"even positive definite"));
+print("DIRECT_CYCLOTOMIC_INPUT_VERIFIED: J0=(pbar J,h11/2), tensor trace even positive definite rank88 determinant1.");
+};
+main();
+quit;

@@ -1,0 +1,40 @@
+{
+  "status": "verified",
+  "input_lattice_sha256": "ee7d08e6701d5d2618751c586241ab63cac8b838734e57eba73a98eeb76e8ab2",
+  "E_projective_minima": [
+    "1",
+    "5/23",
+    "1/23",
+    "1/529"
+  ],
+  "J_projective_minima": [
+    6,
+    16,
+    27,
+    48
+  ],
+  "J_free_minima": [
+    6,
+    16,
+    27,
+    48
+  ],
+  "same_original_J_in_minima_h3_and_tensor": true,
+  "d3_final_cutoff_all_classes": 26,
+  "d4_final_cutoff_all_classes": 47,
+  "rank4_h3_candidates_and_survivors": [
+    8159,
+    1376,
+    362,
+    1,
+    0
+  ],
+  "trace_minimum": 8,
+  "perfect_symmetric_rank": 3916,
+  "perfect_modulus": 461,
+  "perfect_seed_count": 44,
+  "all_orbit_table_rows_verified": true,
+  "automorphism_group": "C2 x PSL(2,23)",
+  "all_supplement_components_verified": true,
+  "wall_seconds": 0.110144084
+}

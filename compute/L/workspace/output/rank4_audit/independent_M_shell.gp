@@ -1,0 +1,10 @@
+default(parisizemax,2000000000);
+read("output/d3/benchmark/ambient.gp");
+read("output/rank4_audit/ambient_qfauto.gp");
+t0=getwalltime();S=qfminim(G,24);print("signed_count=",S[1]," pairs=",matsize(S[3])[2]," msec=",getwalltime()-t0);
+write("output/rank4_audit/M_shell12.txt",matsize(S[3])[2]," 22");for(j=1,matsize(S[3])[2],write("output/rank4_audit/M_shell12.txt",vector(22,i,S[3][i,j])));
+write("output/rank4_audit/M_integer_data.txt","22");for(i=1,22,write("output/rank4_audit/M_integer_data.txt",vector(22,j,G[i,j])));
+for(i=1,22,write("output/rank4_audit/M_integer_data.txt",vector(22,j,W[i,j])));
+write("output/rank4_audit/M_integer_data.txt",#AUT[2]);for(k=1,#AUT[2],for(i=1,22,write("output/rank4_audit/M_integer_data.txt",vector(22,j,AUT[2][k][i,j]))));
+write("output/rank4_audit/M_shell12_count_input.txt","22 24");for(i=1,22,write("output/rank4_audit/M_shell12_count_input.txt",vector(22,j,G[i,j])));
+print("total_ms=",getwalltime()-t0);quit;

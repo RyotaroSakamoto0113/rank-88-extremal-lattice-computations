@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "group_and_orbits_only_identical": true,
+  "stages": [
+    {
+      "stage": "compile_configurable_v2",
+      "started_utc": "2026-09-12T13:34:03.773344+00:00",
+      "wall_seconds": 1.4439683749999999,
+      "user_cpu_seconds": 1.089502,
+      "system_cpu_seconds": 0.23194199999999998,
+      "exit_code": 0
+    },
+    {
+      "stage": "generate_configurable_v2",
+      "started_utc": "2026-09-12T13:34:05.218010+00:00",
+      "wall_seconds": 2.3590737920000002,
+      "user_cpu_seconds": 1.892436,
+      "system_cpu_seconds": 0.06567600000000001,
+      "exit_code": 0
+    },
+    {
+      "stage": "orbits_only_regression",
+      "started_utc": "2026-09-12T13:34:07.577650+00:00",
+      "wall_seconds": 1.149382958,
+      "user_cpu_seconds": 1.0938779999999997,
+      "system_cpu_seconds": 0.04327199999999998,
+      "exit_code": 0
+    }
+  ]
+}

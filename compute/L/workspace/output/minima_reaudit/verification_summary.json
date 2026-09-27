@@ -1,0 +1,103 @@
+{
+  "status": "verified",
+  "definition": "minimum Hermitian Gram determinant among free O_F submodules of J",
+  "F": "Q(sqrt(-23))",
+  "omega_relation": "omega^2-omega+6=0",
+  "J": "(47, eta-21) in Q(zeta_23), pairing as in original input identity certificate",
+  "free_minima": {
+    "1": 6,
+    "2": 16,
+    "3": 27,
+    "4": 48
+  },
+  "projective_minima_proved": {
+    "1": 6,
+    "2": 16,
+    "3": 27
+  },
+  "rank4_projective_lower_proved": 24,
+  "rank4_projective_exact_minimum_not_claimed": true,
+  "all_upper_witnesses_verified": true,
+  "all_lower_exclusions_complete": true,
+  "same_ambient_input_verified": true,
+  "d3_independent_without_short_line_pruning": {
+    "first_orbits": 55,
+    "raw_binary": 983,
+    "nonsaturated_binary": 4,
+    "unique_binary": 978,
+    "duplicates": 1,
+    "raw_ternary": 0,
+    "nonsaturated_ternary": 0,
+    "saturated_ternary": 0,
+    "free_ternary": 0,
+    "min_binary": 16,
+    "min_ternary": null,
+    "forms": 3099,
+    "min_ternary_note": "No rank3 candidate at determinant <=26; the original 1000000000 is an initialization sentinel, not a mathematical minimum."
+  },
+  "d4_counts": {
+    "raw_rank2": 74504,
+    "nonsaturated_rank2": 160,
+    "ordinary_rank2_rejections": 22282,
+    "duplicate_rank2": 31556,
+    "kept_rank2": 20506,
+    "raw_rank3": 45293,
+    "nonsaturated_rank3": 620,
+    "ordinary_rank3_rejections": 32649,
+    "second_order_rank3_rejections": 8411,
+    "duplicate_rank3": 0,
+    "kept_rank3": 3613,
+    "raw_rank4": 0,
+    "exact_forms": 71043
+  },
+  "d4_exact_by_dimension": {
+    "20": {
+      "forms": 234,
+      "signed_vectors": 149008,
+      "nodes": 2665819,
+      "sum_ldl_seconds": 0.48572579999999993,
+      "sum_enumeration_seconds": 7.700553199999993
+    },
+    "18": {
+      "forms": 61518,
+      "signed_vectors": 90586,
+      "nodes": 11068474,
+      "sum_ldl_seconds": 92.22322383999949,
+      "sum_enumeration_seconds": 20.90066933099984
+    },
+    "16": {
+      "forms": 9291,
+      "signed_vectors": 0,
+      "nodes": 149000,
+      "sum_ldl_seconds": 9.60961229199999,
+      "sum_enumeration_seconds": 0.16806904399999886
+    }
+  },
+  "d4_certificate_all78_verified": true,
+  "times_seconds": {
+    "input_cusps_orbits_exact_spheres_and_compilation": 16.231940625,
+    "d1_d2_d3_main": 7.385388417,
+    "d3_independent": 14.992584208,
+    "ordinary_sphere_group_stabilizers": 16.343014291000003,
+    "upper_witness_search_compile_and_verify": 1.78816175,
+    "d4_main": 140.63640379100002,
+    "d4_independent_certificate": 157.00669891700002
+  },
+  "records": {
+    "bootstrap": "runs/20260912-223806-1hi7u01i",
+    "d3": "runs/20260912-224127-d3-2ghz11k4",
+    "independent_d3": "runs/independent-d3-esc2f1bq",
+    "ordinary": "runs/20260912-225059-ordinary-8drmqkk4",
+    "d4": "runs/20260912-230943-d4-full78-asrjvxpn",
+    "independent_d4": "runs/20260912-230943-d4-full78-asrjvxpn/independent-verification-pxvzwjrl/SUMMARY.json"
+  },
+  "summary_hashes": {
+    "runs/20260912-223806-1hi7u01i/BOOTSTRAP_SUMMARY.json": "75ae44ed4efac851129305690e947e81250d8e410586201eda484552bc8d1311",
+    "runs/20260912-224127-d3-2ghz11k4/D3_SUMMARY.json": "10912129f7c1f1cda4e5ee38c454a6d38413a77d90158c7c05f6b7bf5920ff20",
+    "runs/independent-d3-esc2f1bq/DERIVED_LOWER_BOUNDS.json": "33bd50c769d95453d7aba8419f93cceda5b15016df7ddd73134f7bf5f436439a",
+    "runs/20260912-230943-d4-full78-asrjvxpn/D4_SUMMARY.json": "90f83893ef767cf68897d2e168d6df6dc433669a581bda66f73f26d7206fb811",
+    "runs/20260912-230943-d4-full78-asrjvxpn/independent-verification-pxvzwjrl/SUMMARY.json": "0a3225117a91e202198108d2f135823366a5a38029fe107f13aac5f3820ac760",
+    "dependency_bindings.json": "60515fa824fac9ccd8d30e26cfe98dc2b8c53c461909e5b0c35ca664dd0b048a",
+    "witnesses/verification.json": "76d5c7e5ff521358432b4e140f39e8159fe4fb28cf408d4c8e38e0da129b1fd0"
+  }
+}

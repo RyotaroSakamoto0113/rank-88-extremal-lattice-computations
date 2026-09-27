@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-09-13T03:55:41.772981+00:00",
+  "stages": [
+    {
+      "name": "rebuild",
+      "started_utc": "2026-09-13T03:55:41.773204+00:00",
+      "wall_seconds": 0.294928041,
+      "user_cpu_seconds": 0.28596099999999997,
+      "system_cpu_seconds": 0.004304,
+      "returncode": 0
+    },
+    {
+      "name": "independent_python",
+      "started_utc": "2026-09-13T03:55:42.075238+00:00",
+      "wall_seconds": 1.150445333,
+      "user_cpu_seconds": 1.1365720000000001,
+      "system_cpu_seconds": 0.009128,
+      "returncode": 0
+    }
+  ],
+  "status": "verified",
+  "total_wall_seconds": 1.4527601669999999,
+  "lattice_sha256": "ee7d08e6701d5d2618751c586241ab63cac8b838734e57eba73a98eeb76e8ab2"
+}

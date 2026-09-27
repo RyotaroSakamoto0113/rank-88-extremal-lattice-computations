@@ -1,0 +1,418 @@
+{
+  "scope": "Computational claims and their code, inputs, certificates and expected outputs. VERIFIED records the supplied exact evidence and historical checks; quick verification alone is not a full rerun. Paper proofs are external prerequisites.",
+  "claims": [
+    {
+      "id": "E-INPUT",
+      "claim": "E weight, basis, Gram matrix, positivity, duality and E8 trace lattice",
+      "status": "VERIFIED",
+      "code": "compute/L/REPRODUCE_FULL.py; compute/groups/reproduce.py",
+      "input_data": "compute/L/workspace/output/perfect_reaudit/input/; data/factor_input.json",
+      "certificate": "external:L/results/perfect/; external:L/results/positivity/; external:groups/",
+      "expected_output": "rank8; even; determinant1; E#=sqrt(-23)E",
+      "paper_reference": "prop:rank4-algebraic-properties",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "E-MINIMA-WITNESSES",
+      "claim": "Exact upper witnesses and Gram identities for E projective minima",
+      "status": "VERIFIED",
+      "code": "compute/L/src/verify_additional.py",
+      "input_data": "compute/L/workspace/output/perfect_reaudit/input/E_H4_a23.txt; compute/L/workspace/output/perfect_reaudit/input/E_H4_b23.txt",
+      "certificate": "external:L/results/additional/additional_verification.json",
+      "expected_output": "Upper witnesses 1, 5/23, 1/23, 1/529 and exact binary Gram; lower bounds proved in Proposition 3.6",
+      "paper_reference": "Proposition 3.6",
+      "computational_dependencies": [
+        "E-INPUT"
+      ],
+      "theoretical_prerequisites": [
+        "E-MINIMA"
+      ],
+      "notes": "The lower-bound argument is in the paper; the code checks exact displayed inputs and witnesses."
+    },
+    {
+      "id": "E-UNITS",
+      "claim": "Independence of E trace weight up to Hermitian isometry",
+      "status": "VERIFIED",
+      "code": "compute/L/src/field_arithmetic.gp",
+      "input_data": "Defining degree8 field",
+      "certificate": "external:L/results/fields/",
+      "expected_output": "Certified class groups, signature and norm ranks",
+      "paper_reference": "rem:E-Gram",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J-INPUT",
+      "claim": "Norm47 ideal, trace weight, relative different, self-duality and trace determinant",
+      "status": "VERIFIED",
+      "code": "compute/L/REPRODUCE_FULL.py; compute/groups/reproduce.py",
+      "input_data": "J cyclotomic basis and weight",
+      "certificate": "external:L/results/perfect/; external:L/results/positivity/; external:groups/",
+      "expected_output": "Norm(J)=47; det(trace J)=23^11; J#=J",
+      "paper_reference": "prop:h11-properties",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J-UNITS",
+      "claim": "Unit-norm surjectivity and independence of positive generator",
+      "status": "VERIFIED",
+      "code": "compute/L/src/field_arithmetic.gp",
+      "input_data": "Cyclotomic field Q(zeta23) and real subfield",
+      "certificate": "external:L/results/fields/",
+      "expected_output": "Kplus class number1 and signature rank11; certified norm argument",
+      "paper_reference": "rem:norm-surj-11",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "L-GRAM",
+      "claim": "L has rank88, is positive, even and unimodular",
+      "status": "VERIFIED",
+      "code": "compute/L/workspace/output/perfect_reaudit/input/verify_tensor_input.py; scripts/verify_split_certificate.py",
+      "input_data": "data/L/lattice.json",
+      "certificate": "verification/L_perfection/; external:L/results/perfect/",
+      "expected_output": "Positive leading minors; even diagonal; determinant1",
+      "paper_reference": "prop:tensor-decomposition",
+      "computational_dependencies": [
+        "E-INPUT",
+        "J-INPUT"
+      ],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "NEBE-CLASS",
+      "claim": "Comparison field class group C7 and ideal-extension subgroup",
+      "status": "VERIFIED",
+      "code": "compute/L/src/nebe_class_number.gp",
+      "input_data": "Q(sqrt(-7),zeta13)",
+      "certificate": "external:L/results/nebe_class_number/",
+      "expected_output": "class number7; Hasse unit index2; relative degree3",
+      "paper_reference": "rem:description",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "BARNES",
+      "claim": "Comparison construction recovers Barnes factor",
+      "status": "VERIFIED",
+      "code": "compute/L/src/barnes.gp",
+      "input_data": "Barnes Gram and quadratic action",
+      "certificate": "external:L/results/barnes/",
+      "expected_output": "Explicit integral Hermitian isometry",
+      "paper_reference": "rem:description",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "CLASS-F",
+      "claim": "Cl(Q(sqrt(-23)))=C3; three ideal representatives",
+      "status": "VERIFIED",
+      "code": "compute/L/src/field_arithmetic.gp; compute/L/src/small_ideals.gp",
+      "input_data": "Quadratic defining polynomial",
+      "certificate": "external:L/results/fields/; external:L/results/small_ideals/",
+      "expected_output": "class group C3; representatives O,p,pbar",
+      "paper_reference": "sec:d1d2",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "CLASS-K23",
+      "claim": "Class group of Q(zeta23) and arithmetic input for ideal-class exhaustion",
+      "status": "VERIFIED",
+      "code": "compute/L/src/field_arithmetic.gp",
+      "input_data": "Cyclotomic polynomial Phi_23 and ideal J=(47,zeta23-21)",
+      "certificate": "external:L/results/fields/stdout; external:L/results/fields/number_fields.gp",
+      "expected_output": "Unconditionally certified class group C3; real subfield narrow class number1; ideal-class comparison for J",
+      "paper_reference": "Remark 5.6",
+      "computational_dependencies": [
+        "J-INPUT"
+      ],
+      "theoretical_prerequisites": [],
+      "notes": "The conclusion that exactly two Z-isometry classes arise also uses conjugation and normalized ideal-lattice arguments in the paper."
+    },
+    {
+      "id": "J-D1",
+      "claim": "d1 projective(J)=6, and ordinary Hermitian norm7 absent",
+      "status": "VERIFIED",
+      "code": "compute/L/src/run_core.py",
+      "input_data": "Three cusp trace forms",
+      "certificate": "external:L/workspace/output/minima_reaudit/runs/; external:L/workspace/output/minima_reaudit/witnesses/fresh_reproduction/",
+      "expected_output": "All cusp counts exact; minimum6; norm7 absent",
+      "paper_reference": "prop:d_1(J)",
+      "computational_dependencies": [
+        "J-INPUT",
+        "CLASS-F"
+      ],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J-GROUP",
+      "claim": "Full trace group of J and minimum-shell action",
+      "status": "VERIFIED",
+      "code": "compute/groups/reproduce.py; compute/L/src/group_structure.cpp",
+      "input_data": "data/factor_input.json",
+      "certificate": "external:groups/; external:L/results/group/",
+      "expected_output": "C2 x PSL2(23), order12144; 1012 norm12 vectors; stabilizer12",
+      "paper_reference": "sec:autgroup",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J-ORBITS",
+      "claim": "All saturated line orbit rows through determinant21",
+      "status": "VERIFIED",
+      "code": "compute/L/src/orbit_burnside.gp; compute/L/src/verify_orbit_table.py",
+      "input_data": "Three cusp forms and finite group",
+      "certificate": "external:L/results/orbit_table/; external:L/results/fast_orbit_all/; external:L/results/orbit_exact_remaining/",
+      "expected_output": "All displayed table rows agree",
+      "paper_reference": "sec:autgroup",
+      "computational_dependencies": [
+        "J-GROUP",
+        "CLASS-F"
+      ],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J-SEMILINEAR",
+      "claim": "Explicit beta gives conjugate-linear equality of the two orbit columns",
+      "status": "VERIFIED",
+      "code": "compute/L/src/field_arithmetic.gp",
+      "input_data": "Cyclotomic ideal representatives",
+      "certificate": "external:L/results/fields/explicit_beta.gp; external:L/results/fields/stdout",
+      "expected_output": "Ideal identity and 2*beta*bar(beta)=1",
+      "paper_reference": "sec:autgroup",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J-D2",
+      "claim": "d2 projective(J)=16 and displayed pseudo-basis",
+      "status": "VERIFIED",
+      "code": "compute/L/src/run_core.py; compute/L/src/binary_witness.gp",
+      "input_data": "All three class quotients and exact witnesses",
+      "certificate": "external:L/workspace/output/minima_reaudit/runs/; external:L/results/binary_witness/",
+      "expected_output": "No rank2 candidate <=15; exact determinant16",
+      "paper_reference": "prop:d_2(J)",
+      "computational_dependencies": [
+        "J-D1"
+      ],
+      "theoretical_prerequisites": [
+        "HERMITIAN-CONSTANTS"
+      ]
+    },
+    {
+      "id": "J-D3",
+      "claim": "d3 projective(J)=27",
+      "status": "VERIFIED",
+      "code": "compute/L/src/run_core.py",
+      "input_data": "Independent d3 cutoff26 in every class",
+      "certificate": "external:L/workspace/output/minima_reaudit/runs/independent-d3-*/",
+      "expected_output": "978 binary modules; 3099 exact forms; zero final candidates; upper witness27",
+      "paper_reference": "prop:d_3(J)",
+      "computational_dependencies": [
+        "J-D2"
+      ],
+      "theoretical_prerequisites": [
+        "HERMITIAN-CONSTANTS"
+      ],
+      "notes": "The final cutoff 26 is applied in each Steinitz class."
+    },
+    {
+      "id": "J-D4",
+      "claim": "d4 projective(J)=48",
+      "status": "VERIFIED",
+      "code": "compute/L/workspace/output/d4_projective_J/src/d4_run.py",
+      "input_data": "78 anchors; final cutoffs 47,47,47",
+      "certificate": "external:L/workspace/output/d4_projective_J/full_run/",
+      "expected_output": "78 verified branches; 324468 exact forms; 0 rank4 candidates; upper witness48",
+      "paper_reference": "prop:d_4(J)",
+      "computational_dependencies": [
+        "J-D3"
+      ],
+      "theoretical_prerequisites": [
+        "HERMITIAN-CONSTANTS"
+      ],
+      "notes": "The projective cutoff 47 is applied in each Steinitz class."
+    },
+    {
+      "id": "TENSOR-BOUNDS",
+      "claim": "Ranks1–3 have h>=4; rank4 has h>=3",
+      "status": "VERIFIED",
+      "code": "scripts/verify_formulas.py",
+      "input_data": "E and J projective minima",
+      "certificate": "verification/formulas.json",
+      "expected_output": "Bounds >3 for ranks1–3 and >2 for rank4",
+      "paper_reference": "prop:tensor-rank-3",
+      "computational_dependencies": [
+        "J-D1",
+        "J-D2",
+        "J-D3",
+        "J-D4"
+      ],
+      "theoretical_prerequisites": [
+        "TENSOR-INEQUALITY",
+        "E-MINIMA"
+      ],
+      "notes": "The application of the bound is theoretical; numeric inequalities are exact."
+    },
+    {
+      "id": "L-H3",
+      "claim": "L has no Hermitian norm3 tensor",
+      "status": "VERIFIED",
+      "code": "compute/L/workspace/output/rank4_d27_d48/run_h3.py",
+      "input_data": "Same J as in the tensor Gram",
+      "certificate": "external:L/results/h3/output/rank4_audit/",
+      "expected_output": "8159 abstract; 1376 binary survivors; 362 source reps; 0 remaining",
+      "paper_reference": "prop:tensor-rank-4-case2",
+      "computational_dependencies": [
+        "J-INPUT",
+        "TENSOR-BOUNDS"
+      ],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J0-GENERATOR",
+      "claim": "J0=pbar J is principal with displayed generator",
+      "status": "VERIFIED",
+      "code": "scripts/build_L0.py",
+      "input_data": "compute/j0/run/input/J_ambient.gp; J0_exact_input.gp",
+      "certificate": "external:L0_input/build.stdout; external:L0_input/J0_basis_power.txt",
+      "expected_output": "HNF(pbar J)=HNF(c O_K); c=sum zeta23^[0,1,4,6,8,9,12,20]",
+      "paper_reference": "sec:J0-extremal",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "L0-GRAM",
+      "claim": "L0 is positive even unimodular of rank88",
+      "status": "VERIFIED",
+      "code": "scripts/build_L0.py; scripts/verify_split_certificate.py",
+      "input_data": "data/L0/lattice.json; cyclotomic J0 input",
+      "certificate": "verification/L0_perfection/; external:L0_input/",
+      "expected_output": "Positive leading minors; even diagonal; determinant1",
+      "paper_reference": "sec:J0-extremal",
+      "computational_dependencies": [
+        "E-INPUT",
+        "J0-GENERATOR"
+      ],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "L0-H3",
+      "claim": "Separate J0 tensor norm3 exclusion",
+      "status": "VERIFIED",
+      "code": "compute/j0/reproduce.py",
+      "input_data": "J0 trace Gram and Hermitian forms",
+      "certificate": "external:J0/output/rank4_audit/",
+      "expected_output": "8159 abstract; 1556 binary survivors; 453 reps; 1483 quadruples; 0 integral; affine states47,77,25,0; control8",
+      "paper_reference": "prop:L0-extremal",
+      "computational_dependencies": [
+        "L0-GRAM"
+      ],
+      "theoretical_prerequisites": [
+        "J0-MINIMA"
+      ],
+      "notes": "Not inferred from the exclusion for J."
+    },
+    {
+      "id": "E-GROUP",
+      "claim": "Full F-linear E group and conjugate-linear involution",
+      "status": "VERIFIED",
+      "code": "compute/groups/reproduce.py",
+      "input_data": "data/factor_input.json",
+      "certificate": "external:groups/",
+      "expected_output": "Order240, SmallGroup(240,89)=2^-S5; semilinear order480; involution squared1",
+      "paper_reference": "grp:prop:Egroup",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "J0-GROUP",
+      "claim": "Full trace group of J0",
+      "status": "VERIFIED",
+      "code": "compute/groups/reproduce.py",
+      "input_data": "data/factor_input.json",
+      "certificate": "external:groups/",
+      "expected_output": "C2 x PGL2(23); order24288; derived subgroup6072; explicit involution",
+      "paper_reference": "grp:prop:Jgroups",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "CHARACTERS",
+      "claim": "Factor character restriction and E group quotient data",
+      "status": "VERIFIED",
+      "code": "compute/groups/reproduce.py",
+      "input_data": "Exact factor generators",
+      "certificate": "external:groups/groups.g; external:groups/gap.stdout",
+      "expected_output": "D5 class sizes1,1,20,30,12,12,20,12,12 and traces4,-4,-2,0,-1,-1,2,1,1",
+      "paper_reference": "grp:lem:characters",
+      "computational_dependencies": [
+        "E-GROUP"
+      ],
+      "theoretical_prerequisites": []
+    },
+    {
+      "id": "L-PERFECTION",
+      "claim": "L perfection certificate",
+      "status": "VERIFIED",
+      "code": "scripts/verify_split_certificate.py",
+      "input_data": "data/L/lattice.json; certificates/L_perfection.json",
+      "certificate": "verification/L_perfection/",
+      "expected_output": "44 exact norm8 seeds;115 nonsingular minors mod461; rank3916",
+      "paper_reference": "prop:extreme88",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": [
+        "L-EXTREMAL"
+      ],
+      "notes": "Modular rank gives rational rank; min8 premise separate."
+    },
+    {
+      "id": "L0-PERFECTION",
+      "claim": "Independent L0 perfection certificate",
+      "status": "VERIFIED",
+      "code": "scripts/verify_split_certificate.py",
+      "input_data": "data/L0/lattice.json; certificates/L0_perfection.json",
+      "certificate": "verification/L0_perfection/",
+      "expected_output": "44 exact norm8 seeds;115 nonsingular minors mod461; rank3916",
+      "paper_reference": "prop:extreme88",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": [
+        "L0-EXTREMAL"
+      ],
+      "notes": "The independent L0 certificate is checked by scripts/verify_split_certificate.py."
+    },
+    {
+      "id": "NON4-NUMBERS",
+      "claim": "Exact theta/moment/harmonic/elimination identities",
+      "status": "VERIFIED",
+      "code": "scripts/verify_formulas.py",
+      "input_data": "Rational coefficients and rank88 extremal theta series",
+      "certificate": "verification/formulas.json",
+      "expected_output": "|Min|168498000; S2=122544000; hypotheticalS4=261427200 congruent6 mod9; actualS4 congruent0",
+      "paper_reference": "prop:not-4-design",
+      "computational_dependencies": [],
+      "theoretical_prerequisites": [],
+      "notes": "The exact check uses the fourth moment S4."
+    },
+    {
+      "id": "FACTOR-ACTIONS",
+      "claim": "Norm12 shells, stabilizers, Sylow23 action, natural conjugations, and absence of Hermitian norm7 in both factors",
+      "status": "VERIFIED",
+      "code": "scripts/verify_factor_claims.py",
+      "input_data": "compute/groups/input.json; fresh factor generators",
+      "certificate": "verification/factor_claims_extended/",
+      "expected_output": "1012/506 vectors; stabilizers12/48;24 Sylow subgroups; faithful action equivariantly identified with PSL2(23) on P1(F23); involutions squared1",
+      "paper_reference": "grp:prop:Jgroups",
+      "computational_dependencies": [
+        "E-GROUP",
+        "J-GROUP",
+        "J0-GROUP"
+      ],
+      "theoretical_prerequisites": [],
+      "notes": "The calculation checks factor-level actions; the full rank88 group upper bounds use the paper's mathematical argument."
+    }
+  ]
+}

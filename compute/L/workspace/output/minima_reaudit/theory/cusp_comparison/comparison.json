@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "production_d3_directory": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-224127-d3-2ghz11k4",
+  "bootstrap_directory": "/Users/ryotarosakamoto/.codex/.chatgpt-projects/g-p-6a7359f42e50819182181e61199f2684/output/minima_reaudit/runs/20260912-223806-1hi7u01i",
+  "wall_seconds": 0.026631041000000008,
+  "user_cpu_seconds": 0.0218,
+  "system_cpu_seconds": 0.004588,
+  "compared": [
+    "CC",
+    "GG",
+    "CI"
+  ],
+  "production_common_sha256": "3ddc64ffa09c1753cc0f7605b407bffdc14f4e4ac7278fd7e80241be97b72ca3"
+}

@@ -1,0 +1,24 @@
+default(parisizemax,2000000000);
+default(parisize,256000000);
+read("input/J_ambient.gp");
+read("input/J0_exact_input.gp");
+read("output/rank4_audit/ambient_qfauto.gp");
+assert(b,s)={if(!b,error(s))};
+main()={
+my(start=getwalltime(),GS,AS,R="output/rank4_audit/",fd,U=mathnf(concat(2*matid(22),W-matid(22))));
+assert(abs(matdet(S))==2^11 && denominator(S)==1,"ideal twist index");
+assert(denominator(U^-1*S)==1 && abs(matdet(U^-1*S))==1,"same ideal twist module");
+assert(G0==S~*G*S/2 && W0==S^-1*W*S,"J0 input normalization and action");
+assert(matdet(G0)==23^11 && denominator(G0)==1 && denominator(W0)==1,"J0 determinant and integrality");
+assert(denominator((11*G0+W0~*G0)/23)==1 && denominator((G0-2*W0~*G0)/23)==1,"h0 integral");
+AS=vector(#AUT[2],i,S^-1*AUT[2][i]*S);
+for(i=1,#AS,assert(denominator(AS[i])==1 && abs(matdet(AS[i]))==1 && AS[i]~*G0*AS[i]==G0 && AS[i]*W0==W0*AS[i],"F-linear isometry generator"));
+fd=fileopen("output/d3/benchmark/ambient.gp","w");filewrite(fd,Str("G=",G0,";W=",W0,";"));fileclose(fd);
+GS=qfminim(G0,24);print("J0 signed vectors=",GS[1]," pairs=",matsize(GS[3])[2]);
+fd=fileopen(R"M_shell12.txt","w");filewrite(fd,Str(matsize(GS[3])[2]," 22"));for(j=1,matsize(GS[3])[2],filewrite(fd,Str(vector(22,i,GS[3][i,j]))));fileclose(fd);
+fd=fileopen(R"M_integer_data.txt","w");filewrite(fd,"22");for(i=1,22,filewrite(fd,Str(vector(22,j,G0[i,j]))));for(i=1,22,filewrite(fd,Str(vector(22,j,W0[i,j]))));filewrite(fd,Str(#AS));for(k=1,#AS,for(i=1,22,filewrite(fd,Str(vector(22,j,AS[k][i,j])))));fileclose(fd);
+fd=fileopen(R"M_shell12_count_input.txt","w");filewrite(fd,"22 24");for(i=1,22,filewrite(fd,Str(vector(22,j,G0[i,j]))));fileclose(fd);
+print("J0_AMBIENT_READY wall_ms=",getwalltime()-start);
+};
+main();
+quit;

@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "theta": [
+    1,
+    0,
+    0,
+    0,
+    168498000
+  ],
+  "shell_size": 168498000,
+  "S2": 122544000,
+  "hypothetical_S4": 261427200,
+  "S4_residue_if_design": 6,
+  "harmonic_degrees_verified": [
+    2,
+    4,
+    6
+  ],
+  "tensor_bounds_verified": true
+}

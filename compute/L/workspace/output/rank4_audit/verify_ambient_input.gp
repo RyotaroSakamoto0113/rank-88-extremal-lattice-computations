@@ -1,0 +1,26 @@
+default(parisize,400000000);
+read("rank88_exact_data.gp");
+read("output/d3/benchmark/ambient.gp");
+assert(b,s)={if(!b,error(s))};
+main()={
+my(start=getabstime(),phi=polcyclo(23),eta=Mod(x,phi),t,alpha,BC,wf,GG,WW,A0,A1);
+t=eta+eta^-1;alpha=1/((2-t)^5*A23(t));
+wf=1+sum(k=1,22,if(kronecker(k,23)==1,eta^k,0));
+assert(wf^2-wf+6==0,"quadratic embedding");
+BC=matrix(22,22,i,j,polcoef(lift(B[j]),i-1));
+assert(denominator(BC)==1 && abs(matdet(BC))==47,"ideal basis determinant");
+for(j=1,22,assert(subst(lift(B[j]),x,Mod(21,47))==0,"basis ideal membership"));
+GG=matrix(22,22,i,j,my(v=lift(alpha*B[i]*subst(lift(B[j]),x,eta^-1)));23*polcoef(v,0)-subst(v,x,1));
+WW=BC^-1*matrix(22,22,i,j,polcoef(lift(wf*B[j]),i-1));
+assert(GG==G && WW==W,"original relative ideal input mismatch");
+assert(G==G~ && denominator(G)==1 && matdet(G)==23^11,"trace Gram");
+for(i=1,22,assert(G[i,i]%2==0 && matdet(G[1..i,1..i])>0,"even positive definite Gram"));
+assert(W^2-W+6==0 && W~*G==G*(1-W),"omega polynomial and adjoint");
+A0=(11*G+W~*G)/23;A1=(G-2*W~*G)/23;
+assert(denominator(A0)==1 && denominator(A1)==1,"Hermitian O-integrality");
+assert(2*A0+A1==G && A0==A0~+A1~ && A1==-A1~, "first-linear trace reconstruction");
+print("AMBIENT_INPUT_VERIFIED: ideal J=(47,eta-21), alpha=((2-t)^5 A23(t))^-1, det G=",matdet(G),", integral first-linear Hermitian Gram");
+print("wall_ms=",getabstime()-start);
+};
+main();
+quit;

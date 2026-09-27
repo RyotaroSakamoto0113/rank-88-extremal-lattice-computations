@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "compile_checked_ranges",
+    "started_utc": "2026-09-12T13:34:58.369357+00:00",
+    "wall_seconds": 1.32656625,
+    "user_cpu_seconds": 1.140102,
+    "system_cpu_seconds": 0.09830699999999999,
+    "exit_code": 0
+  },
+  {
+    "stage": "cutoff18_regression",
+    "started_utc": "2026-09-12T13:34:59.696928+00:00",
+    "wall_seconds": 1.0335462499999999,
+    "user_cpu_seconds": 0.613898,
+    "system_cpu_seconds": 0.04413299999999999,
+    "exit_code": 0
+  },
+  {
+    "stage": "gp_format_validation",
+    "started_utc": "2026-09-12T13:35:00.731047+00:00",
+    "wall_seconds": 0.019164791000000125,
+    "user_cpu_seconds": 0.01264299999999996,
+    "system_cpu_seconds": 0.0027459999999999984,
+    "exit_code": 0
+  }
+]
