@@ -27,10 +27,6 @@
     "sha256": "8be890370a5f630da3058d9cef14be47e9ed98596f30d8133d6286d5f1af422d",
     "bytes": 11997
   },
-  "output/d4_projective_J/inputs/exact_enum": {
-    "sha256": "b8830148be05ea068e633aab2ad411bb3ab1ba50aae66ca24f63cf4c0cee3f4a",
-    "bytes": 62440
-  },
   "output/d4_projective_J/inputs/generators.gp": {
     "sha256": "3fec7cd7338c6ce506fb491e0fce679ee27f9a67f9603c65c75c4f0a884d044e",
     "bytes": 3133

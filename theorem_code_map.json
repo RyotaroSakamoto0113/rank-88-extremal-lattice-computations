@@ -1,5 +1,5 @@
 {
-  "scope": "Computational claims and their code, inputs, certificates and expected outputs. VERIFIED records the supplied exact evidence and historical checks; quick verification alone is not a full rerun. Paper proofs are external prerequisites.",
+  "scope": "Computational claims and supporting code, inputs, certificates, and outputs.",
   "claims": [
     {
       "id": "E-INPUT",
@@ -411,8 +411,7 @@
         "J-GROUP",
         "J0-GROUP"
       ],
-      "theoretical_prerequisites": [],
-      "notes": "The calculation checks factor-level actions; the full rank88 group upper bounds use the paper's mathematical argument."
+      "theoretical_prerequisites": []
     }
   ]
 }
